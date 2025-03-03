@@ -208,11 +208,6 @@ RAG-AI-Chatbot/
 
 ---
 
-## 📞 Contact & Support
-For questions or feature requests, open an issue on **GitHub** or contact:  
-📧 **Your Email**  
-🌍 **Your Website (if available)**  
-
 🔹 **If this project helps you, please ⭐ the repository!**  
 
 ---
