@@ -198,14 +198,6 @@ RAG-AI-Chatbot/
 ├── requirements.txt       # Dependencies
 └── README.md              # This guide
 ```
-
----
-
-## 🎯 Future Improvements
-✅ **User Analytics**: Add a dashboard to show student engagement.  
-✅ **Better UI**: Improve the Streamlit interface with custom components.  
-✅ **Cloud Deployment**: Deploy using **Streamlit Cloud** or **Docker**.  
-
 ---
 
 🔹 **If this project helps you, please ⭐ the repository!**  
