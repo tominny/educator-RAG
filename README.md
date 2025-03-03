@@ -92,7 +92,57 @@ This will:
 ✔️ Create **embeddings** table (for storing document vectors)  
 
 ---
+🛠 Deployment on Streamlit Cloud
 
+✅ Prerequisites
+
+Before deploying, ensure you have:
+
+A GitHub repository with this project.
+
+A Streamlit Cloud account (Sign up here).
+
+A NeonDB (PostgreSQL) account (Sign up here).
+
+🚀 Steps to Deploy
+
+Push Your Project to GitHub
+
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/RAG-AI-Chatbot.git
+git push -u origin main
+
+Go to Streamlit Cloud (Streamlit Cloud)
+
+Create a New App:
+
+Select your GitHub repository.
+
+Choose Home.py as the main file.
+
+Click Deploy.
+
+Set Environment Variables in Streamlit Cloud:
+
+Open the Secrets Manager in the Streamlit Cloud settings.
+
+Add the following secrets:
+
+OPENAI_API_KEY = "your-openai-api-key"
+NEONDB_CONNECTION_STRING = "postgresql://your_username:your_password@your-neon-instance.neon.tech/your_db?sslmode=require"
+
+Click Save.
+
+Restart Your Streamlit Cloud App
+
+Your app should now be live with a URL like:
+
+https://your-username-your-app.streamlit.app
+
+---
 ## ▶️ Running the Application
 Start the app by running:
 ```bash
