@@ -1,0 +1,6 @@
+open Anaconda prompt
+pip install - r requirements.txt
+
+cd "C:\Users\f006q7g\OneDrive - Dartmouth College\Research\MedEdResearch\AI in Education\TA chatbot\code\educational_chatbot"
+streamlit run app.py
+
